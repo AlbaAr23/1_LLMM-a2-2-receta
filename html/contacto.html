@@ -1,5 +1,51 @@
 <!-- Página con un formulario de contacto -->
-<!-- h1 -->
-<!-- p -->
-<!-- Enlaces a index, ingredientes, pasos y contacto -->
 <!-- formulario: nombre, email, seleccionar entre consulta/sugerencia/corrección, comentario, aceptar política de privacidad, enviar-->
+<html>
+    <head></head>
+    <body>
+        <h1>Contacto</h1>
+        <form>
+            <!-- nombre del usuario -->
+            <label for="Nombre">Nombre</label><br>
+            <input type="text" id="Nombre" placeholder="nombre"><br>
+           
+            <!-- apellidos -->
+            <label for="apellidos">Apellidos</label><br>
+            <input type="text" id="apellidos" name="apellidos" placeholder="apellidos"><br>
+           
+            <!-- poner el email -->
+            <label for="Email">Email</label><br>
+            <input type="Email" id="Email" placeholder="email.@gmail.com"><br>
+           
+            <!-- poner una contraseña  -->
+            <label for="contraseña">Contraseña</label><br>
+            <input type="contraseña" id="contraseña" placeholder="contraseña"><br>
+            
+            <!-- telefono -->
+            <label for="telefono">telefono</label><br>
+            <input type="tel" id="telefono" placeholder="telefono"><br>
+    
+            <!-- departamento type radio -->
+            <h2>Seleccionar</h2>
+            <input type="radio" id="radio-consulta" name="contacto" value="Consulta">
+            <label for="radio-fps">Consulta</label>
+            <br>
+
+            <input type="radio" id="radio-sugerencia" name="contacto" value="sugerencia">
+            <label for="radio-sugerencia">Sugerencia</label>
+            <br>
+
+            <input type="radio" id="radio-correccion" name="contacto" value="correccion">
+            <label for="radio-deportes">Corrección</label>
+            <br>
+            <label for="comentario">Escribe un comentario:</label>
+            <textarea name="opinion" id="opinion" rows="10" cols="50">Escribe tu comentario refacherito.
+            </textarea>
+            <br>
+
+            <button type="submid">Enviar</button>
+            <!-- tambien se puede hacer con un imput -->
+
+        </form>
+    </body>
+</html>
